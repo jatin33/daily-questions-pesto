@@ -1,0 +1,21 @@
+{
+  "name": "daily-questions-pesto",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --json 2>&1 > testOutput.json"
+  },
+  "repository": "git@github.com:jatin33/daily-questions-pesto.git",
+  "author": "jatin33 <jatinpanjwani12@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "*",
+    "@babel/preset-env": "*",
+    "babel-core": "^7.0.0-bridge",
+    "babel-jest": "*",
+    "eslint": "^6.7.2",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "jest": "^24.9.0"
+  }
+}
