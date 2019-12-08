@@ -1,1 +1,94 @@
-{"numFailedTestSuites":1,"numFailedTests":5,"numPassedTestSuites":1,"numPassedTests":2,"numPendingTestSuites":0,"numPendingTests":0,"numRuntimeErrorTestSuites":0,"numTodoTests":0,"numTotalTestSuites":2,"numTotalTests":7,"openHandles":[],"snapshot":{"added":0,"didUpdate":false,"failure":false,"filesAdded":0,"filesRemoved":0,"filesRemovedList":[],"filesUnmatched":0,"filesUpdated":0,"matched":0,"total":0,"unchecked":0,"uncheckedKeysByFile":[],"unmatched":0,"updated":0},"startTime":1575823668931,"success":false,"testResults":[{"assertionResults":[{"ancestorTitles":["setup jest"],"failureMessages":[],"fullName":"setup jest adds numbers","location":null,"status":"passed","title":"adds numbers"},{"ancestorTitles":["setup jest"],"failureMessages":[],"fullName":"setup jest handles string input","location":null,"status":"passed","title":"handles string input"}],"endTime":1575823675608,"message":"","name":"/home/jatin/daily-questions-pesto/math.test.js","startTime":1575823671710,"status":"passed","summary":""},{"assertionResults":[{"ancestorTitles":["SavingsAccount"],"failureMessages":["TypeError: _SavingsAccount.SavingsAccount is not a constructor\n    at Object.<anonymous> (/home/jatin/daily-questions-pesto/9 Dec/savings-account/SavingsAccount.test.js:12:27)\n    at Object.asyncJestTest (/home/jatin/daily-questions-pesto/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)\n    at /home/jatin/daily-questions-pesto/node_modules/jest-jasmine2/build/queueRunner.js:43:12\n    at new Promise (<anonymous>)\n    at mapper (/home/jatin/daily-questions-pesto/node_modules/jest-jasmine2/build/queueRunner.js:26:19)\n    at /home/jatin/daily-questions-pesto/node_modules/jest-jasmine2/build/queueRunner.js:73:41"],"fullName":"SavingsAccount SavingsAccount constructs the proper object","location":null,"status":"failed","title":"SavingsAccount constructs the proper object"},{"ancestorTitles":["SavingsAccount"],"failureMessages":["Error: expect(received).toThrow(expected)\n\nExpected substring: \"Account Number must be a 6-digit number\"\nReceived message:   \"_SavingsAccount.SavingsAccount is not a constructor\"\n\n      15 | \n      16 |   test('should throw error if account number length is not equal to 6', () => {\n    > 17 |     expect(() => new SavingsAccount('123', 'kohli@gmail.com', 'Virat', 'Kohli')).toThrow('Account Number must be a 6-digit number');\n         |                  ^\n      18 |   });\n      19 | \n      20 |   test('should throw error if email is invalid', () => {\n\n      at 9 Dec/savings-account/SavingsAccount.test.js:17:18\n      at Object.<anonymous> (node_modules/expect/build/toThrowMatchers.js:81:11)\n      at Object.toThrow (node_modules/expect/build/index.js:342:33)\n      at Object.<anonymous> (9 Dec/savings-account/SavingsAccount.test.js:17:82)\n    at Object.<anonymous> (/home/jatin/daily-questions-pesto/9 Dec/savings-account/SavingsAccount.test.js:17:82)\n    at Object.asyncJestTest (/home/jatin/daily-questions-pesto/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)\n    at /home/jatin/daily-questions-pesto/node_modules/jest-jasmine2/build/queueRunner.js:43:12\n    at new Promise (<anonymous>)\n    at mapper (/home/jatin/daily-questions-pesto/node_modules/jest-jasmine2/build/queueRunner.js:26:19)\n    at /home/jatin/daily-questions-pesto/node_modules/jest-jasmine2/build/queueRunner.js:73:41"],"fullName":"SavingsAccount should throw error if account number length is not equal to 6","location":null,"status":"failed","title":"should throw error if account number length is not equal to 6"},{"ancestorTitles":["SavingsAccount"],"failureMessages":["Error: expect(received).toThrow(expected)\n\nExpected substring: \"Invalid e-mail\"\nReceived message:   \"_SavingsAccount.SavingsAccount is not a constructor\"\n\n      19 | \n      20 |   test('should throw error if email is invalid', () => {\n    > 21 |     expect(() => new SavingsAccount('123456', 'kohli@', 'Virat', 'Kohli')).toThrow('Invalid e-mail');\n         |                  ^\n      22 |   });\n      23 | \n      24 |   test('should throw error if account number length is not equal to 6', () => {\n\n      at 9 Dec/savings-account/SavingsAccount.test.js:21:18\n      at Object.<anonymous> (node_modules/expect/build/toThrowMatchers.js:81:11)\n      at Object.toThrow (node_modules/expect/build/index.js:342:33)\n      at Object.<anonymous> (9 Dec/savings-account/SavingsAccount.test.js:21:76)\n    at Object.<anonymous> (/home/jatin/daily-questions-pesto/9 Dec/savings-account/SavingsAccount.test.js:21:76)\n    at Object.asyncJestTest (/home/jatin/daily-questions-pesto/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)\n    at /home/jatin/daily-questions-pesto/node_modules/jest-jasmine2/build/queueRunner.js:43:12\n    at new Promise (<anonymous>)\n    at mapper (/home/jatin/daily-questions-pesto/node_modules/jest-jasmine2/build/queueRunner.js:26:19)\n    at /home/jatin/daily-questions-pesto/node_modules/jest-jasmine2/build/queueRunner.js:73:41"],"fullName":"SavingsAccount should throw error if email is invalid","location":null,"status":"failed","title":"should throw error if email is invalid"},{"ancestorTitles":["SavingsAccount"],"failureMessages":["Error: expect(received).toThrow(expected)\n\nExpected substring: \"First name must be between 3 and 20 characters long\"\nReceived message:   \"_SavingsAccount.SavingsAccount is not a constructor\"\n\n      23 | \n      24 |   test('should throw error if account number length is not equal to 6', () => {\n    > 25 |     expect(() => new SavingsAccount('123456', 'kohli@gmail.com', 'V', 'Kohli')).toThrow('First name must be between 3 and 20 characters long');\n         |                  ^\n      26 |   });\n      27 | \n      28 |   test('should throw error if account number length is not equal to 6', () => {\n\n      at 9 Dec/savings-account/SavingsAccount.test.js:25:18\n      at Object.<anonymous> (node_modules/expect/build/toThrowMatchers.js:81:11)\n      at Object.toThrow (node_modules/expect/build/index.js:342:33)\n      at Object.<anonymous> (9 Dec/savings-account/SavingsAccount.test.js:25:81)\n    at Object.<anonymous> (/home/jatin/daily-questions-pesto/9 Dec/savings-account/SavingsAccount.test.js:25:81)\n    at Object.asyncJestTest (/home/jatin/daily-questions-pesto/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)\n    at /home/jatin/daily-questions-pesto/node_modules/jest-jasmine2/build/queueRunner.js:43:12\n    at new Promise (<anonymous>)\n    at mapper (/home/jatin/daily-questions-pesto/node_modules/jest-jasmine2/build/queueRunner.js:26:19)\n    at /home/jatin/daily-questions-pesto/node_modules/jest-jasmine2/build/queueRunner.js:73:41"],"fullName":"SavingsAccount should throw error if account number length is not equal to 6","location":null,"status":"failed","title":"should throw error if account number length is not equal to 6"},{"ancestorTitles":["SavingsAccount"],"failureMessages":["Error: expect(received).toThrow(expected)\n\nExpected substring: \"Last name must contain english alphabets only\"\nReceived message:   \"_SavingsAccount.SavingsAccount is not a constructor\"\n\n      27 | \n      28 |   test('should throw error if account number length is not equal to 6', () => {\n    > 29 |     expect(() => new SavingsAccount('123456', 'kohli@gmail.com', 'Virat', 'Kohli5')).toThrow('Last name must contain english alphabets only');\n         |                  ^\n      30 |   });\n      31 | });\n      32 | \n\n      at 9 Dec/savings-account/SavingsAccount.test.js:29:18\n      at Object.<anonymous> (node_modules/expect/build/toThrowMatchers.js:81:11)\n      at Object.toThrow (node_modules/expect/build/index.js:342:33)\n      at Object.<anonymous> (9 Dec/savings-account/SavingsAccount.test.js:29:86)\n    at Object.<anonymous> (/home/jatin/daily-questions-pesto/9 Dec/savings-account/SavingsAccount.test.js:29:86)\n    at Object.asyncJestTest (/home/jatin/daily-questions-pesto/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)\n    at /home/jatin/daily-questions-pesto/node_modules/jest-jasmine2/build/queueRunner.js:43:12\n    at new Promise (<anonymous>)\n    at mapper (/home/jatin/daily-questions-pesto/node_modules/jest-jasmine2/build/queueRunner.js:26:19)\n    at /home/jatin/daily-questions-pesto/node_modules/jest-jasmine2/build/queueRunner.js:73:41"],"fullName":"SavingsAccount should throw error if account number length is not equal to 6","location":null,"status":"failed","title":"should throw error if account number length is not equal to 6"}],"endTime":1575823676488,"message":"  ● SavingsAccount › SavingsAccount constructs the proper object\n\n    TypeError: _SavingsAccount.SavingsAccount is not a constructor\n\n      10 |       products: [],\n      11 |     };\n    > 12 |     const actualAccount = new SavingsAccount('123456', 'kohli@gmail.com', 'Virat', 'Kohli');\n         |                           ^\n      13 |     expect(actualAccount).toEqual(myAccount);\n      14 |   });\n      15 | \n\n      at Object.<anonymous> (9 Dec/savings-account/SavingsAccount.test.js:12:27)\n\n  ● SavingsAccount › should throw error if account number length is not equal to 6\n\n    expect(received).toThrow(expected)\n\n    Expected substring: \"Account Number must be a 6-digit number\"\n    Received message:   \"_SavingsAccount.SavingsAccount is not a constructor\"\n\n          15 | \n          16 |   test('should throw error if account number length is not equal to 6', () => {\n        > 17 |     expect(() => new SavingsAccount('123', 'kohli@gmail.com', 'Virat', 'Kohli')).toThrow('Account Number must be a 6-digit number');\n             |                  ^\n          18 |   });\n          19 | \n          20 |   test('should throw error if email is invalid', () => {\n\n      at 9 Dec/savings-account/SavingsAccount.test.js:17:18\n      at Object.<anonymous> (node_modules/expect/build/toThrowMatchers.js:81:11)\n      at Object.toThrow (node_modules/expect/build/index.js:342:33)\n      at Object.<anonymous> (9 Dec/savings-account/SavingsAccount.test.js:17:82)\n      at Object.<anonymous> (9 Dec/savings-account/SavingsAccount.test.js:17:82)\n\n  ● SavingsAccount › should throw error if email is invalid\n\n    expect(received).toThrow(expected)\n\n    Expected substring: \"Invalid e-mail\"\n    Received message:   \"_SavingsAccount.SavingsAccount is not a constructor\"\n\n          19 | \n          20 |   test('should throw error if email is invalid', () => {\n        > 21 |     expect(() => new SavingsAccount('123456', 'kohli@', 'Virat', 'Kohli')).toThrow('Invalid e-mail');\n             |                  ^\n          22 |   });\n          23 | \n          24 |   test('should throw error if account number length is not equal to 6', () => {\n\n      at 9 Dec/savings-account/SavingsAccount.test.js:21:18\n      at Object.<anonymous> (node_modules/expect/build/toThrowMatchers.js:81:11)\n      at Object.toThrow (node_modules/expect/build/index.js:342:33)\n      at Object.<anonymous> (9 Dec/savings-account/SavingsAccount.test.js:21:76)\n      at Object.<anonymous> (9 Dec/savings-account/SavingsAccount.test.js:21:76)\n\n  ● SavingsAccount › should throw error if account number length is not equal to 6\n\n    expect(received).toThrow(expected)\n\n    Expected substring: \"First name must be between 3 and 20 characters long\"\n    Received message:   \"_SavingsAccount.SavingsAccount is not a constructor\"\n\n          23 | \n          24 |   test('should throw error if account number length is not equal to 6', () => {\n        > 25 |     expect(() => new SavingsAccount('123456', 'kohli@gmail.com', 'V', 'Kohli')).toThrow('First name must be between 3 and 20 characters long');\n             |                  ^\n          26 |   });\n          27 | \n          28 |   test('should throw error if account number length is not equal to 6', () => {\n\n      at 9 Dec/savings-account/SavingsAccount.test.js:25:18\n      at Object.<anonymous> (node_modules/expect/build/toThrowMatchers.js:81:11)\n      at Object.toThrow (node_modules/expect/build/index.js:342:33)\n      at Object.<anonymous> (9 Dec/savings-account/SavingsAccount.test.js:25:81)\n      at Object.<anonymous> (9 Dec/savings-account/SavingsAccount.test.js:25:81)\n\n  ● SavingsAccount › should throw error if account number length is not equal to 6\n\n    expect(received).toThrow(expected)\n\n    Expected substring: \"Last name must contain english alphabets only\"\n    Received message:   \"_SavingsAccount.SavingsAccount is not a constructor\"\n\n          27 | \n          28 |   test('should throw error if account number length is not equal to 6', () => {\n        > 29 |     expect(() => new SavingsAccount('123456', 'kohli@gmail.com', 'Virat', 'Kohli5')).toThrow('Last name must contain english alphabets only');\n             |                  ^\n          30 |   });\n          31 | });\n          32 |\n\n      at 9 Dec/savings-account/SavingsAccount.test.js:29:18\n      at Object.<anonymous> (node_modules/expect/build/toThrowMatchers.js:81:11)\n      at Object.toThrow (node_modules/expect/build/index.js:342:33)\n      at Object.<anonymous> (9 Dec/savings-account/SavingsAccount.test.js:29:86)\n      at Object.<anonymous> (9 Dec/savings-account/SavingsAccount.test.js:29:86)\n","name":"/home/jatin/daily-questions-pesto/9 Dec/savings-account/SavingsAccount.test.js","startTime":1575823675649,"status":"failed","summary":""}],"wasInterrupted":false}
+{
+    "numFailedTestSuites": 0,
+    "numFailedTests": 0,
+    "numPassedTestSuites": 1,
+    "numPassedTests": 5,
+    "numPendingTestSuites": 0,
+    "numPendingTests": 0,
+    "numRuntimeErrorTestSuites": 0,
+    "numTodoTests": 0,
+    "numTotalTestSuites": 1,
+    "numTotalTests": 5,
+    "openHandles": [],
+    "snapshot": {
+        "added": 0,
+        "didUpdate": false,
+        "failure": false,
+        "filesAdded": 0,
+        "filesRemoved": 0,
+        "filesRemovedList": [],
+        "filesUnmatched": 0,
+        "filesUpdated": 0,
+        "matched": 0,
+        "total": 0,
+        "unchecked": 0,
+        "uncheckedKeysByFile": [],
+        "unmatched": 0,
+        "updated": 0
+    },
+    "startTime": 1575827398288,
+    "success": true,
+    "testResults": [
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "SavingsAccount"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "SavingsAccount SavingsAccount constructs the proper object",
+                    "location": null,
+                    "status": "passed",
+                    "title": "SavingsAccount constructs the proper object"
+                },
+                {
+                    "ancestorTitles": [
+                        "SavingsAccount"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "SavingsAccount should throw error if account number length is not equal to 6",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should throw error if account number length is not equal to 6"
+                },
+                {
+                    "ancestorTitles": [
+                        "SavingsAccount"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "SavingsAccount should throw error if email is invalid",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should throw error if email is invalid"
+                },
+                {
+                    "ancestorTitles": [
+                        "SavingsAccount"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "SavingsAccount should throw error if firstname not between 3 and 20 characters long",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should throw error if firstname not between 3 and 20 characters long"
+                },
+                {
+                    "ancestorTitles": [
+                        "SavingsAccount"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "SavingsAccount should throw error if lastname has anything else except english alphabets",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should throw error if lastname has anything else except english alphabets"
+                }
+            ],
+            "endTime": 1575827404919,
+            "message": "",
+            "name": "/home/jatin/daily-questions-pesto/9 Dec/savings-account/SavingsAccount.test.js",
+            "startTime": 1575827401341,
+            "status": "passed",
+            "summary": ""
+        }
+    ],
+    "wasInterrupted": false
+}
