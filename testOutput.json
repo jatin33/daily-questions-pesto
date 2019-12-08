@@ -1,14 +1,14 @@
 {
     "numFailedTestSuites": 0,
     "numFailedTests": 0,
-    "numPassedTestSuites": 1,
-    "numPassedTests": 5,
+    "numPassedTestSuites": 2,
+    "numPassedTests": 11,
     "numPendingTestSuites": 0,
     "numPendingTests": 0,
     "numRuntimeErrorTestSuites": 0,
     "numTodoTests": 0,
-    "numTotalTestSuites": 1,
-    "numTotalTests": 5,
+    "numTotalTestSuites": 2,
+    "numTotalTests": 11,
     "openHandles": [],
     "snapshot": {
         "added": 0,
@@ -26,9 +26,84 @@
         "unmatched": 0,
         "updated": 0
     },
-    "startTime": 1575827398288,
+    "startTime": 1575837343443,
     "success": true,
     "testResults": [
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "accountDataset",
+                        "hundredThousandairs"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "accountDataset hundredThousandairs should return an array with accounts from bankBalances that are greater than 100000",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should return an array with accounts from bankBalances that are greater than 100000"
+                },
+                {
+                    "ancestorTitles": [
+                        "accountDataset",
+                        "datasetWithRoundedDollar"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "accountDataset datasetWithRoundedDollar should return an array of accounts with an added key `rounded`",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should return an array of accounts with an added key `rounded`"
+                },
+                {
+                    "ancestorTitles": [
+                        "accountDataset",
+                        "datasetWithRoundedDollar"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "accountDataset datasetWithRoundedDollar each accounts `rounded` value should be rounded to the nearest dollar",
+                    "location": null,
+                    "status": "passed",
+                    "title": "each accounts `rounded` value should be rounded to the nearest dollar"
+                },
+                {
+                    "ancestorTitles": [
+                        "accountDataset",
+                        "sumOfBankBalances"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "accountDataset sumOfBankBalances should return the sum of all amounts in bankBalances, rounded to the nearest cent",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should return the sum of all amounts in bankBalances, rounded to the nearest cent"
+                },
+                {
+                    "ancestorTitles": [
+                        "accountDataset",
+                        "sumOfInterests"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "accountDataset sumOfInterests should return the sum the 18.9% interest for all amounts in bankBalances, in the selected states, rounded to the nearest cent",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should return the sum the 18.9% interest for all amounts in bankBalances, in the selected states, rounded to the nearest cent"
+                },
+                {
+                    "ancestorTitles": [
+                        "accountDataset"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "accountDataset should return the sum of all amounts of every state, where the sum of amounts in the state is greater than 1,000,000",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should return the sum of all amounts of every state, where the sum of amounts in the state is greater than 1,000,000"
+                }
+            ],
+            "endTime": 1575837346396,
+            "message": "",
+            "name": "/home/jatin/daily-questions-pesto/9 Dec/account-dataset/accountDataset.test.js",
+            "startTime": 1575837344915,
+            "status": "passed",
+            "summary": ""
+        },
         {
             "assertionResults": [
                 {
@@ -82,10 +157,10 @@
                     "title": "should throw error if lastname has anything else except english alphabets"
                 }
             ],
-            "endTime": 1575827404919,
+            "endTime": 1575837346563,
             "message": "",
             "name": "/home/jatin/daily-questions-pesto/9 Dec/savings-account/SavingsAccount.test.js",
-            "startTime": 1575827401341,
+            "startTime": 1575837345024,
             "status": "passed",
             "summary": ""
         }
