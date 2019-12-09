@@ -1,14 +1,14 @@
 {
     "numFailedTestSuites": 0,
     "numFailedTests": 0,
-    "numPassedTestSuites": 2,
-    "numPassedTests": 11,
+    "numPassedTestSuites": 3,
+    "numPassedTests": 13,
     "numPendingTestSuites": 0,
     "numPendingTests": 0,
     "numRuntimeErrorTestSuites": 0,
     "numTodoTests": 0,
-    "numTotalTestSuites": 2,
-    "numTotalTests": 11,
+    "numTotalTestSuites": 3,
+    "numTotalTests": 13,
     "openHandles": [],
     "snapshot": {
         "added": 0,
@@ -26,9 +26,69 @@
         "unmatched": 0,
         "updated": 0
     },
-    "startTime": 1575837343443,
+    "startTime": 1575903588426,
     "success": true,
     "testResults": [
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "SavingsAccount"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "SavingsAccount SavingsAccount constructs the proper object",
+                    "location": null,
+                    "status": "passed",
+                    "title": "SavingsAccount constructs the proper object"
+                },
+                {
+                    "ancestorTitles": [
+                        "SavingsAccount"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "SavingsAccount should throw error if account number length is not equal to 6",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should throw error if account number length is not equal to 6"
+                },
+                {
+                    "ancestorTitles": [
+                        "SavingsAccount"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "SavingsAccount should throw error if email is invalid",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should throw error if email is invalid"
+                },
+                {
+                    "ancestorTitles": [
+                        "SavingsAccount"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "SavingsAccount should throw error if firstname not between 3 and 20 characters long",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should throw error if firstname not between 3 and 20 characters long"
+                },
+                {
+                    "ancestorTitles": [
+                        "SavingsAccount"
+                    ],
+                    "failureMessages": [],
+                    "fullName": "SavingsAccount should throw error if lastname has anything else except english alphabets",
+                    "location": null,
+                    "status": "passed",
+                    "title": "should throw error if lastname has anything else except english alphabets"
+                }
+            ],
+            "endTime": 1575903596792,
+            "message": "",
+            "name": "/home/jatin/daily-questions-pesto/9 Dec/savings-account/SavingsAccount.test.js",
+            "startTime": 1575903592175,
+            "status": "passed",
+            "summary": ""
+        },
         {
             "assertionResults": [
                 {
@@ -97,10 +157,10 @@
                     "title": "should return the sum of all amounts of every state, where the sum of amounts in the state is greater than 1,000,000"
                 }
             ],
-            "endTime": 1575837346396,
+            "endTime": 1575903596868,
             "message": "",
             "name": "/home/jatin/daily-questions-pesto/9 Dec/account-dataset/accountDataset.test.js",
-            "startTime": 1575837344915,
+            "startTime": 1575903592179,
             "status": "passed",
             "summary": ""
         },
@@ -108,59 +168,29 @@
             "assertionResults": [
                 {
                     "ancestorTitles": [
-                        "SavingsAccount"
+                        "sequentialPromise"
                     ],
                     "failureMessages": [],
-                    "fullName": "SavingsAccount SavingsAccount constructs the proper object",
+                    "fullName": "sequentialPromise should resolve 3 promises in sequence and return a promise",
                     "location": null,
                     "status": "passed",
-                    "title": "SavingsAccount constructs the proper object"
+                    "title": "should resolve 3 promises in sequence and return a promise"
                 },
                 {
                     "ancestorTitles": [
-                        "SavingsAccount"
+                        "sequentialPromise"
                     ],
                     "failureMessages": [],
-                    "fullName": "SavingsAccount should throw error if account number length is not equal to 6",
+                    "fullName": "sequentialPromise should resolve 2 promises in sequence and return a promise",
                     "location": null,
                     "status": "passed",
-                    "title": "should throw error if account number length is not equal to 6"
-                },
-                {
-                    "ancestorTitles": [
-                        "SavingsAccount"
-                    ],
-                    "failureMessages": [],
-                    "fullName": "SavingsAccount should throw error if email is invalid",
-                    "location": null,
-                    "status": "passed",
-                    "title": "should throw error if email is invalid"
-                },
-                {
-                    "ancestorTitles": [
-                        "SavingsAccount"
-                    ],
-                    "failureMessages": [],
-                    "fullName": "SavingsAccount should throw error if firstname not between 3 and 20 characters long",
-                    "location": null,
-                    "status": "passed",
-                    "title": "should throw error if firstname not between 3 and 20 characters long"
-                },
-                {
-                    "ancestorTitles": [
-                        "SavingsAccount"
-                    ],
-                    "failureMessages": [],
-                    "fullName": "SavingsAccount should throw error if lastname has anything else except english alphabets",
-                    "location": null,
-                    "status": "passed",
-                    "title": "should throw error if lastname has anything else except english alphabets"
+                    "title": "should resolve 2 promises in sequence and return a promise"
                 }
             ],
-            "endTime": 1575837346563,
+            "endTime": 1575903599061,
             "message": "",
-            "name": "/home/jatin/daily-questions-pesto/9 Dec/savings-account/SavingsAccount.test.js",
-            "startTime": 1575837345024,
+            "name": "/home/jatin/daily-questions-pesto/9 Dec/sequential-promise/sequentialPromise.test.js",
+            "startTime": 1575903592176,
             "status": "passed",
             "summary": ""
         }
