@@ -3,14 +3,14 @@ function doesEndWith(sublist, list) {
   const listLength = list.length;
   const sublistLength = sublist.length;
   const remainingListLength = listLength - sublistLength;
+  let localListCopy = '';
+  let localSubListCopy = '';
   if (Array.isArray(list) && Array.isArray(sublist)) {
-    list = list.join('');
-    sublist = sublist.join('');
+    localListCopy = list.join('');
+    localSubListCopy = sublist.join('');
   }
-  const remainingList = list.substring(remainingListLength);
-  return remainingList === sublist;
+  const remainingList = localListCopy.substring(remainingListLength);
+  return remainingList === localSubListCopy;
 }
 
-export {
-  doesEndWith,
-};
+export default doesEndWith;

@@ -1,4 +1,4 @@
-import { doesEndWith } from './doesEndWith';
+import  doesEndWith  from './doesEndWith';
 
 
 describe('doesEndWith', () => {
