@@ -8,7 +8,8 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn run lint"
+      "pre-commit": "yarn run lint",
+      "pre-push":"yarn run test"
     }
   },
   "repository": "git@github.com:jatin33/daily-questions-pesto.git",
